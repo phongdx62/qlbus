@@ -1,0 +1,141 @@
+
+
+*{margin: 0; padding: 0;}
+
+iframe.maps {
+    width: 100%;
+    height: 450px;
+}
+
+.btn-route:hover .route-trip {
+    color: #34B67A;
+}
+
+.btn-route:hover {
+    text-decoration: none;
+}
+
+.btn-route:hover .item-route {
+    background: #fff;
+    border: 1px solid #34B67A;
+}
+
+.btn-route:hover .icon {
+    background: #34B67A;
+    color: #fff;
+    text-decoration: none;
+}
+
+.route-trip {
+    color: #fff;
+}
+
+.icon {
+    background: #fff;
+    padding: 5px 9px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #34B67A;
+}
+
+.item-route {
+    display: flex;
+    background: #34B67A;
+    margin: 5px;
+    padding: 4px;
+    align-items: center;
+    border: 1px solid #34B67A;
+}
+
+.list-bus {
+    border: 1px solid #dfdada;
+    margin: 13px;
+    width: 97.5%;
+    padding: 10px;
+}
+
+.list-bus h4 {
+    color: #34B67A;
+}
+
+.search button {
+    border-radius: 30px;
+    background: #34B67A;
+    width: 140px;
+    color: #fff;
+}
+.search button:hover {
+    border-radius: 30px;
+    background: #fff;
+    width: 140px;
+    color: #34B67A;
+}
+.search {
+    width: 540px;
+    margin: auto;
+}
+
+.search input {
+    width: 350px !important;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.logo {
+    color: #109D59;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+.header .btn {
+    color: #fff;
+    border-radius: 0px;
+    padding: 3px 9px;
+    background: #25a33a;
+}
+
+.header input.form-control {
+    height: 30px;
+    border-radius: 0px;
+}
+
+.header nav {
+    background: #34B67A !important;
+}
+
+.header a {
+    color: #fff !important;
+    padding: 0 100px 0 24px;
+}
+
+.header a.nav-link:hover {
+    background: #109D59;
+}
+
+a.nav-link {
+    padding: 5px;
+}
+
+@media(max-width : 600px){
+    .search{
+        width:400px
+    }
+}
+
+
+
+.footer {
+    width: 98%;
+    height: 40px;
+    background: #34B67A;
+    color: #111;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
